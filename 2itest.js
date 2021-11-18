@@ -3,7 +3,7 @@
 // then in multiples of 8 up to 200,
 // then multiples of 9 up to 300.
 
-numArr = [];
+const numArr = [];
 
 for (let i = 1; i <= 300; i++) {
   if (i <= 100 && i % 7 === 0) {
