@@ -5,7 +5,7 @@
 
 numArr = [];
 
-for (let i = 0; i <= 300; i++) {
+for (let i = 1; i <= 300; i++) {
   if (i <= 100 && i % 7 === 0) {
     numArr.push(i);
   } else if (i > 100 && i <= 200 && i % 8 === 0) {
